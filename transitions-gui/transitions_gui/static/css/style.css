@@ -1,0 +1,36 @@
+body { 
+    font: 14px helvetica neue, helvetica, arial, sans-serif;
+  }
+  
+#cy {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 2rem;
+}
+
+#machineName {
+    width: 100%;
+    text-align: center;
+}
+
+#config {
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  height: 4rem;
+  width: 100%;
+}
+
+.button {
+  margin: 10 5 10 5;
+  float: left;
+  font-size: 20px;
+  height: 3rem;
+  width: 3rem;
+}
+
+.unlocked {
+  background-color: lightsalmon;
+}
